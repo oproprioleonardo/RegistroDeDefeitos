@@ -1,0 +1,86 @@
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap"
+		rel="stylesheet">
+	<script src="script.js"></script>
+	<title>Atividade</title>
+</head>
+
+<body>
+
+	<div class="cabecalho">
+		<h1>Cadastro de aparelhos defeituosos</h1>
+	</div>
+
+
+	<div class="corpo">
+
+		<div class="saraaaaa">
+			<form class="cadastro" autocomplete="off">
+
+				<label for="nserie">Número de série: </label>
+				<input type="text" id="nserie" name="nserie" placeholder="#DAS56S2D">
+				<label for="pb">Tipo de problema: </label>
+				<select id="pb" name="pb">
+					<option value="Hardware">Hardware</option>
+					<option value="Software">Software</option>
+					<option value="Rede">Rede</option>
+					<option value="Outro">Outro</option>
+				</select>
+
+				<label for="ap">Aparelho: </label>
+				<select id="ap" name="ap">
+					<option value="Projetor">Projetor</option>
+					<option value="Ar-condicionado">Ar-condicionado</option>
+					<option value="Servidor">Servidor</option>
+					<option value="Estabilizador">Estabilizador</option>
+					<option value="Teclado">Teclado</option>
+					<option value="Mouse">Mouse</option>
+					<option value="Monitor">Monitor</option>
+					<option value="CPU">CPU</option>
+					<option value="Outro">Outro</option>
+				</select>
+
+				<label for="rel">Relatório:</label>
+				<textarea id="rel" name="rel" placeholder="Detalhe o problema.."></textarea>
+
+
+
+
+
+			</form>
+
+			<div class="botoes">
+				<a class="cadastrar" onclick="cadastrar()">Cadastrar</a>
+				<a class="limpar" onclick="limpar()">Limpar</a>
+			</div>
+		</div>
+
+
+
+		<div id="registros">
+			<h1 class="titulo"> Registros </h1>
+
+			<div id="listaRg">
+
+
+			</div>
+
+
+
+		</div>
+	</div>
+
+
+
+
+</body>
+
+</html>

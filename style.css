@@ -1,0 +1,139 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #dbf2f5;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+h5 {
+	margin-bottom: 0;
+}
+
+.cabecalho {
+	width: 100%;
+	background-color: #bedce6;
+	height: 55px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.cadastro {
+	background-color: aliceblue;
+	border-radius: 1.2rem;
+	
+	display: flex;
+	flex-direction: column;
+	
+	width: 35vw;
+	
+	padding: 15px 20px;
+	
+}
+
+.corpo {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	
+	justify-content: space-around;
+	
+	
+}
+
+#registros {
+	background-color: aliceblue;
+	width: 40vw;
+	height: 80vh;
+	border-radius: 1.2rem;
+}
+
+label {
+	margin-top: 27px;
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+input, select, textarea {
+	margin-top: 11px;
+    padding: 8px;
+	outline: none;
+}
+
+textarea {
+	min-height: 100px;
+	resize: vertical;
+}
+
+select {
+    background-color: #f1f1f1;
+}
+
+
+a {
+	text-decoration: none;
+	padding: 10px 25px;
+	border-radius: 8px;
+	font-size: 1.25em;
+	cursor: pointer;
+	border: 1px solid black;
+}
+
+.cadastrar {
+	background-color: white;
+	color: green;
+	transition: 0.3s;
+}
+
+.limpar {
+	background-color: white;
+	color: gray;
+	transition: 0.3s;
+}
+
+.cadastrar:hover, .limpar:hover {
+	background-color: gainsboro;
+}
+
+.botoes {
+	display: flex;
+	flex-direction: row;
+	
+	justify-content: space-around;
+}
+
+
+.titulo {
+	text-align: center;
+	
+}
+
+#listaRg {
+	margin-top: 20px;
+	overflow: auto;
+	max-height: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#registro {
+	width: 80%;
+	background-color: #b7f7f4e5;
+	border-radius: 6px;
+	margin-top: 10px;
+	padding: 11px 22px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(45deg, #5fadd1dc, #8effec);
+    border-radius: 10px;
+}
+
